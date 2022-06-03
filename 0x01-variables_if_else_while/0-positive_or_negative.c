@@ -1,3 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+/**
+ * main - Positive or negative
+ * Description: tells which number positive, negative or equal to zero
+ * Return: return 0
+ */
+
 int main(void)
 {
 	int n;
@@ -12,4 +22,3 @@ int main(void)
 		printf("%d is negative\n", n);
 	return (0);
 }
-
